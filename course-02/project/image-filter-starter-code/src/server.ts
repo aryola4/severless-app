@@ -48,7 +48,11 @@ import { filterImageFromURL, deleteLocalFiles } from './util/util';
           });
       })
       .catch(function (error) {
+<<<<<<< HEAD
         return res.status(500)
+=======
+        return res.status(422)
+>>>>>>> e0c631c (init commit)
           .send(`An error occurred: ${error.message}`);
       });
   });
